@@ -3,11 +3,9 @@ package com.app.library.model;
 import java.time.LocalDate;
 
 public class BorrowingRecord {
-
     private Long id;
     private Book book;
     private Member member;
-
     private LocalDate borrowDate;
     private LocalDate returnDate;
     private LocalDate dueDate;
