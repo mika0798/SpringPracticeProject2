@@ -118,7 +118,7 @@ public class LibraryService {
                 record.setReturnDate(returnDate);
                 for (Book book : books) {
                     if (record.getBook().getId().equals(book.getId())) {
-                        book.setAvailableCopies(book.getAvailableCopies() - 1);
+                        book.setAvailableCopies(book.getAvailableCopies() + 1);
                         break;
                     }
                 }
